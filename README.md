@@ -356,39 +356,52 @@ Title Predicted Churners = "COUNT OF PREDICTED CHURNERS : " & COUNT(Predictions[
 
 ## Findings
 
-- **Key Metrics**:
-  1. **Overall Metrics** (Summary Dashboard):
-     - Total Customers: 6418.
-     - Total Churn: 1732.
-     - Churn Rate: 27%.
-     - New Joiners: 411.
+### Key Metrics
 
-  2. **Churn Patterns** (Summary Dashboard):
-     - **Gender**: Higher churn among males (1111) than females (621).
-     - **Age Group**: Highest churn among 36-50 age group (2K customers churned).
-     - **Tenure**: Customers with >24 months tenure are most likely to churn (2067 customers).
-     - **Contract**: Month-to-month contracts have the highest churn rate (46.5%).
-     - **Payment Method**: Mailed Check users have the highest churn rate (37.8%).
-     - **State (Top 5)**: Jammu & Kashmir (57.2%), Assam (41.2%), Jharkhand (34.5%), Chhattisgarh (30.5%), Delhi (29.1%).
-     - **Internet Type**: Fiber Optic users have the highest churn rate (41.1%).
-     - **Services**:
-       - Customers without Online Security (84.6% churn if not subscribed).
-       - Customers with Paperless Billing (74.6% churn if enabled).
-       - Customers with Streaming TV (38.9% churn if subscribed).
+#### 1. Overall Metrics (Summary Dashboard)
 
-  3. **Churn Categories**:
-     - Competitor (551), Attitude (301), Dissatisfaction (300), Price (196), Other (174).
+| Metric           | Value   |
+|------------------|---------|
+| Total Customers  | 6418    |
+| Total Churn      | 1732    |
+| Churn Rate       | 27%     |
+| New Joiners      | 411     |
 
-  4. **Predicted Churners** (Prediction Dashboard):
-     - Total Predicted Churners: 378 (out of 2753 remaining customers, ~13.7% at risk).
-     - **Gender**: 246 females, 132 males.
-     - **Age Group**: Majority (126) are 20-35 years old.
-     - **Marital Status**: 193 unmarried, 185 married.
-     - **Tenure**: 106 have 6-12 months tenure, 60 have >24 months.
-     - **Payment Method**: 192 use Credit Card, 150 Bank Withdrawal.
-     - **Contract**: 355 on month-to-month contracts.
-     - **State (Top 5)**: Uttar Pradesh (44), Maharashtra (40), Tamil Nadu (37), Karnataka (29), Andhra Pradesh (24).
+#### 2. Churn Patterns (Summary Dashboard)
 
+| Category           | Details                                                                 |
+|--------------------|-------------------------------------------------------------------------|
+| **Gender**         | Higher churn among males (1111) than females (621)                     |
+| **Age Group**      | Highest churn among 36-50 age group (2000 customers churned)           |
+| **Tenure**         | Customers with >24 months tenure most likely to churn (2067 customers) |
+| **Contract**       | Month-to-month contracts have the highest churn rate (46.5%)           |
+| **Payment Method** | Mailed Check users have the highest churn rate (37.8%)                 |
+| **State (Top 5)**  | Jammu & Kashmir (57.2%), Assam (41.2%), Jharkhand (34.5%), Chhattisgarh (30.5%), Delhi (29.1%) |
+| **Internet Type**  | Fiber Optic users have the highest churn rate (41.1%)                  |
+| **Services**       | - Customers without Online Security: 84.6% churn if not subscribed<br>- Customers with Paperless Billing: 74.6% churn if enabled<br>- Customers with Streaming TV: 38.9% churn if subscribed |
+
+#### 3. Churn Categories
+
+| Reason           | Count |
+|------------------|-------|
+| Competitor       | 551   |
+| Attitude         | 301   |
+| Dissatisfaction  | 300   |
+| Price            | 196   |
+| Other            | 174   |
+
+#### 4. Predicted Churners (Prediction Dashboard)
+
+| Metric                 | Details                                                                 |
+|------------------------|-------------------------------------------------------------------------|
+| **Total Predicted Churners** | 378 (out of 2753 remaining customers, ~13.7% at risk)                |
+| **Gender**             | 246 females, 132 males                                                 |
+| **Age Group**          | Majority (126) are 20-35 years old                                     |
+| **Marital Status**     | 193 unmarried, 185 married                                             |
+| **Tenure**             | 106 have 6-12 months tenure, 60 have >24 months                        |
+| **Payment Method**     | 192 use Credit Card, 150 use Bank Withdrawal                           |
+| **Contract**           | 355 on month-to-month contracts                                        |
+| **State (Top 5)**      | Uttar Pradesh (44), Maharashtra (40), Tamil Nadu (37), Karnataka (29), Andhra Pradesh (24) |
 ## Validation
 
 ### 1. Churn by Contract Type
@@ -397,19 +410,20 @@ Title Predicted Churners = "COUNT OF PREDICTED CHURNERS : " & COUNT(Predictions[
 
 **Campaign Idea**: Offer discounts to month-to-month contract customers.
 
-- **Month-to-Month Churners**:
-  - Churn Rate: 46.5% (Summary Dashboard).
-  - Affected Customers: ~806 (46.5% of 1732 total churners).
-  - Avg. Monthly Charge: $62.80 (average from Prediction Dashboard).
-  - Potential Revenue Loss: 806 x $62.80 = $50,617/month.
-  - Campaign Cost (10% discount for 3 months): $62.80 x 10% x 3 x 806 = $15,174.
-  - **Net Savings**: $50,617 - $15,174 = $35,443/month.
+| Metric                 | Details                          |
+|------------------------|----------------------------------|
+| **Churn Rate**         | 46.5% (Summary Dashboard)        |
+| **Affected Customers** | ~806 (46.5% of 1732 total churners) |
+| **Avg. Monthly Charge**| $62.80 (average from Prediction Dashboard) |
+| **Potential Revenue Loss** | 806 x $62.80 = $50,617/month   |
+| **Campaign Cost**      | 10% discount for 3 months: $62.80 x 10% x 3 x 806 = $15,174 |
+| **Net Savings**        | $50,617 - $15,174 = $35,443/month |
 
 **Best Option**: Target month-to-month contract customers for retention campaigns.
 
 #### Output
 
-![Churn by Contract](assets/images/contract.jpg)
+![Churn by Contract](assets/images/churn_by_contract.jpg)
 
 ### 2. Churn by State
 
@@ -417,19 +431,20 @@ Title Predicted Churners = "COUNT OF PREDICTED CHURNERS : " & COUNT(Predictions[
 
 **Campaign Idea**: Region-specific promotions in Jammu & Kashmir.
 
-- **Jammu & Kashmir Churners**:
-  - Churn Rate: 57.2% (Summary Dashboard).
-  - Affected Customers: ~44 (based on Prediction Dashboard).
-  - Avg. Monthly Charge: $62.80.
-  - Potential Revenue Loss: 44 x $62.80 = $2,763/month.
-  - Campaign Cost (targeted ads, $500): $500.
-  - **Net Savings**: $2,763 - $500 = $2,263/month.
+| Metric                 | Details                          |
+|------------------------|----------------------------------|
+| **Churn Rate**         | 57.2% (Summary Dashboard)        |
+| **Affected Customers** | ~44 (based on Prediction Dashboard) |
+| **Avg. Monthly Charge**| $62.80                           |
+| **Potential Revenue Loss** | 44 x $62.80 = $2,763/month     |
+| **Campaign Cost**      | Targeted ads: $500               |
+| **Net Savings**        | $2,763 - $500 = $2,263/month     |
 
 **Best Option**: Focus on Jammu & Kashmir, Maharashtra, and Tamil Nadu for localized retention efforts.
 
 #### Output
 
-![Churn by State](assets/images/State.jpg)
+![Churn by State](assets/images/churn_by_state.jpg)
 
 ## Discovery
 
