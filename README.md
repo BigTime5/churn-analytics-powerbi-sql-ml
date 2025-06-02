@@ -392,16 +392,48 @@ Title Predicted Churners = "COUNT OF PREDICTED CHURNERS : " & COUNT(Predictions[
 
 #### 4. Predicted Churners (Prediction Dashboard)
 
-| Metric                 | Details                                                                 |
-|------------------------|-------------------------------------------------------------------------|
-| **Total Predicted Churners** | 378 (out of 2753 remaining customers, ~13.7% at risk)                |
-| **Gender**             | 246 females, 132 males                                                 |
-| **Age Group**          | Majority (126) are 20-35 years old                                     |
-| **Marital Status**     | 193 unmarried, 185 married                                             |
-| **Tenure**             | 106 have 6-12 months tenure, 60 have >24 months                        |
-| **Payment Method**     | 192 use Credit Card, 150 use Bank Withdrawal                           |
-| **Contract**           | 355 on month-to-month contracts                                        |
-| **State (Top 5)**      | Uttar Pradesh (44), Maharashtra (40), Tamil Nadu (37), Karnataka (29), Andhra Pradesh (24) |
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Total Predicted Churners</td>
+      <td>378 (out of 2753 remaining customers, ~13.7% at risk)</td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td>246 females, 132 males</td>
+    </tr>
+    <tr>
+      <td>Age Group</td>
+      <td>Majority (126) are 20-35 years old</td>
+    </tr>
+    <tr>
+      <td>Marital Status</td>
+      <td>193 unmarried, 185 married</td>
+    </tr>
+    <tr>
+      <td>Tenure</td>
+      <td>106 have 6-12 months tenure, 60 have >24 months</td>
+    </tr>
+    <tr>
+      <td>Payment Method</td>
+      <td>192 use Credit Card, 150 use Bank Withdrawal</td>
+    </tr>
+    <tr>
+      <td>Contract</td>
+      <td>355 on month-to-month contracts</td>
+    </tr>
+    <tr>
+      <td>State (Top 5)</td>
+      <td>Uttar Pradesh (44), Maharashtra (40), Tamil Nadu (37), Karnataka (29), Andhra Pradesh (24)</td>
+    </tr>
+  </tbody>
+</table>
 ## Validation
 
 ### 1. Churn by Contract Type
