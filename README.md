@@ -1,6 +1,6 @@
 # Data Portfolio: Telecom Customer Churn Analysis
 
-![telecom-churn-analysis-process](assets/images/ETL_GIF.gif)
+![telecom-churn-analysis-process](assets/images/SQL_Python_Power_BI.gif)
 # Table of Contents
 
 - [Objective](#objective)
