@@ -315,15 +315,12 @@ HAVING COUNT(*) > 1;
 
 ## Results
 
-### Summary Dashboard
+### Summary  and Prediction Dashboard
 
 #### Output
-![Summary dashboard](assets/images/churn_dashboardgif.gif)
+![Churn dashboard](assets/images/churn_dashboardgif.gif)
 
-### Prediction Dashboard
 
-#### Output
-![Prediction dashboard](assets/images/dashboard_prediction.jpg)
 
 ## DAX Measures
 
