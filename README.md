@@ -318,7 +318,7 @@ HAVING COUNT(*) > 1;
 ### Summary Dashboard
 
 #### Output
-![Summary dashboard](assets/images/dashboard_summary.jpg)
+![Summary dashboard](assets/images/churn_dashboardgif.gif)
 
 ### Prediction Dashboard
 
