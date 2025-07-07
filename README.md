@@ -318,7 +318,7 @@ HAVING COUNT(*) > 1;
 ### Summary  and Prediction Dashboard
 
 #### Output
-![Churn dashboard](assets/images/churn_dashboardgif.gif)
+![Churn dashboard](assets/images/Pizza_report.gif)
 
 
 
